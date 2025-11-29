@@ -1,19 +1,18 @@
 import "./Projects.css";
 
-function Projects(props) {
+function Projects({
+  status = "Under Implementation",
+  title = "Projecy Title",
+  location = "Location",
+}) {
   return (
     <div className="card-project">
-      <p>{props.status}</p>
-      <h2>{props.title}</h2>
-      <p>{props.location}</p>
+      <p>{status}</p>
+      <h2>{title}</h2>
+      <p>{location}</p>
       <button>View Details</button>
     </div>
   );
 }
-Projects.defaultProps = {
-  status: "Under Implementation",
-  title: "Project Title",
-  location: "Location",
-};
 
 export default Projects;

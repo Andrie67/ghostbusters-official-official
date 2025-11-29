@@ -28,7 +28,7 @@ function Guest() {
       <div className="projects">
         <Projects {...cardData.project1} />
         <Projects {...cardData.project2} />
-        <Projects {...cardData} />
+        <Projects />
       </div>
     </div>
   );
