@@ -1,0 +1,10 @@
+.submit-report{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffeff;
+    color: black;
+}

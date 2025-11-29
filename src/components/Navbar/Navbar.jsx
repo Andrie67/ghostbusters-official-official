@@ -5,27 +5,26 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
-      <h2>GhostBusters!</h2>
+      <NavLink to="/">
+        <h2>GhostBusters!</h2>
+      </NavLink>
 
       <ul>
         <li>
-          <NavLink to="/" className="link">
-            Home
-          </NavLink>
+          <NavLink to="/guest">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about" className="link">
-            About
-          </NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/flagged-projects" className="link">
-            Flagged Projects
-          </NavLink>
+          <NavLink to="/flagged-projects">Flagged Projects</NavLink>
         </li>
         <li>
-          <NavLink to="/" className="link">
-            History
+          <NavLink to="/">History</NavLink>
+        </li>
+        <li>
+          <NavLink to="/submit-a-report">
+            <button className="report-button">Submit a Report</button>
           </NavLink>
         </li>
       </ul>
