@@ -3,6 +3,19 @@ import Projects from "../../components/Projects/Projects";
 import "./guest.css";
 
 function Guest() {
+  const cardData = {
+    project1: {
+      status: "On Track",
+      title: "Project Title 1",
+      location: "Manila",
+    },
+    project2: {
+      status: "On Track",
+      title: "Project Title 2",
+      location: "Marikina City",
+    },
+  };
+
   return (
     <div>
       <Navbar />
@@ -13,10 +26,9 @@ function Guest() {
         </div>
       </div>
       <div className="projects">
-        <Projects />
-        <Projects />
-        <Projects />
-        <Projects />
+        <Projects {...cardData.project1} />
+        <Projects {...cardData.project2} />
+        <Projects {...cardData} />
       </div>
     </div>
   );
