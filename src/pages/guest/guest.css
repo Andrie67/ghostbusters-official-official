@@ -1,0 +1,28 @@
+.header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    width: 100vw;
+    left: 20%;
+    margin-left: -3.5vw;
+    background-color: #406191;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 80px;
+}
+.search-box input{
+    padding: 6px;
+    border: 0;
+    outline: 0;
+    background-color: #c4cbd6;
+    color: white;
+    font-size: 18px;
+    max-width: 250px;
+    border-radius: 10px;
+}

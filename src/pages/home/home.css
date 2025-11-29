@@ -1,0 +1,50 @@
+body{
+  background-color: #03254c;
+  color: white;
+}
+span{
+  color: #d0efff;
+}
+section{
+  margin: 0 1.5%;
+  width: 30%;
+}
+.container p{
+  margin: 2px;
+}
+/*.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}*/
+.grid-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card{
+  border: 1px solid lightcyan;
+  border-radius: 10px;
+  background-color: #2a4768;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  text-align: justify;
+  align-content: center;
+  cursor: pointer;
+  margin-top: 35px;
+  min-height: 200px;
+  min-width: 300px;
+}
+/*.button{
+  border-radius: 5px;
+  color: lightskyblue;
+  background-color: lightcyan;
+  border: 1px solid lightblue;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}*/
