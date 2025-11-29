@@ -7,10 +7,12 @@ function Projects({
 }) {
   return (
     <div className="card-project">
-      <p>{status}</p>
+      <div className="status">
+        <p>{status}</p>
+      </div>
       <h2>{title}</h2>
       <p>{location}</p>
-      <button>View Details</button>
+      <button className="details-button">View Details</button>
     </div>
   );
 }
