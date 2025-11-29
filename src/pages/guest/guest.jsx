@@ -1,4 +1,5 @@
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
+import Projects from "../../components/Projects/Projects";
 import "./guest.css";
 
 function Guest() {
@@ -10,6 +11,12 @@ function Guest() {
         <div className="search-box">
           <input type="text" placeholder="Search" />
         </div>
+      </div>
+      <div className="projects">
+        <Projects />
+        <Projects />
+        <Projects />
+        <Projects />
       </div>
     </div>
   );

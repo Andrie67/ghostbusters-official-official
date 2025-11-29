@@ -1,6 +1,8 @@
+import "./Projects.css";
+
 function Projects() {
   return (
-    <div>
+    <div className="card-project">
       <p>Status</p>
       <h2>Project Title</h2>
       <p>Location</p>

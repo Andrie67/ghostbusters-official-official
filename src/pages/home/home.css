@@ -1,6 +1,7 @@
 body{
   background-color: #03254c;
   color: white;
+  color: white;
 }
 span{
   color: #d0efff;
@@ -38,6 +39,7 @@ section{
   margin-top: 35px;
   min-height: 200px;
   min-width: 300px;
+  color: white;
 }
 /*.button{
   border-radius: 5px;
