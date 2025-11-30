@@ -1,5 +1,7 @@
+import React from "react";
 import Card from "../../components/Card.jsx";
 import "./home.css";
+import GhostLogo from '../../assets/ghostiee.png'; 
 
 function Home() {
   const cardData = {
@@ -10,7 +12,7 @@ function Home() {
       navigate: "Guest",
     },
     cardData2: {
-      title: "Contractor and Admin",
+      title: "Contractor and Admin", 
       description: "Manage reports, track projects, and resolve public issues.",
       navigate: "Editor",
     },
@@ -19,6 +21,8 @@ function Home() {
   return (
     <>
       <div className="container">
+        <img src={GhostLogo} alt="GhostBusters Logo" className="home-logo" /> 
+        
         <h1>
           Ghost<span>Busters!</span>
         </h1>

@@ -1,52 +1,76 @@
-body{
-  background-color: #03254c;
-  color: white;
-  color: white;
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
-span{
-  color: #d0efff;
+
+body {
+    background-color: #03254c; 
+    color: white;
+    min-height: 100vh; 
 }
-section{
-  margin: 0 1.5%;
-  width: 30%;
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    
+    padding-top: 50px; 
+    padding-bottom: 20px;
 }
-.container p{
-  margin: 2px;
+
+.home-logo {
+    width: 60px; 
+    height: auto;
+    margin-bottom: 10px; 
 }
-/*.container{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
-  display: block;
-}*/
+.container h1 {
+    font-size: 3rem; 
+    margin: 0; 
+    margin-bottom: 10px;
+}
+span {
+    color: #d0efff;
+}
+
+.container p {
+    margin: 0;
+    margin-bottom: 40px; 
+    font-size: 1.2rem;
+}
 .grid-container {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    width: 100%;
+    padding-bottom: 50px; 
 }
-.card{
-  border: 1px solid lightcyan;
-  border-radius: 10px;
-  background-color: #2a4768;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
-  text-align: justify;
-  align-content: center;
-  cursor: pointer;
-  margin-top: 35px;
-  min-height: 200px;
-  min-width: 300px;
-  color: white;
+.card {
+    width: 400px; 
+    max-width: 40%;
+    
+    border: 1px solid lightcyan;
+    border-radius: 10px;
+    background-color: #2a4768;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    min-height: 200px;
+    color: white;
+    cursor: pointer;
+    text-align: left;
 }
-/*.button{
-  border-radius: 5px;
-  color: lightskyblue;
-  background-color: lightcyan;
-  border: 1px solid lightblue;
-  padding: 5px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-}*/
+
+/* The button styling (if used inside the Card component) */
+/*
+.button {
+    border-radius: 5px;
+    color: lightskyblue;
+    background-color: lightcyan;
+    border: 1px solid lightblue;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+*/

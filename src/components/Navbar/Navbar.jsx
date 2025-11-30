@@ -25,8 +25,8 @@ const Navbar = () => {
           <NavLink to="/">History</NavLink>
         </li>
         <li>
-          <NavLink to="/submit-a-report">
-            <button className="report-button">Submit a Report</button>
+          <NavLink to="/submit-a-report" className="report-link">
+          Submit a Report
           </NavLink>
         </li>
       </ul>

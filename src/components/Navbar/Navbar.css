@@ -1,14 +1,15 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: flex-start; 
+    gap: 40px; 
     background-color: #03254c;
     position: sticky;
     top: 0;
     width: 100%; 
     padding: 10px 1.5rem; 
     margin: 0; 
-    padding-top: 10px;  
+    padding-top: 10px; 
     z-index: 1000; 
 }
 .navbar-brand {
