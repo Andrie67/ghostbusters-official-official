@@ -20,7 +20,7 @@ function Guest() {
       status: "On Track",
       title: "Paldo Dam",
       location: "Luneta City",
-      progress: 67,
+      progress: 91,
     },
   };
 
