@@ -8,47 +8,53 @@ function ReportOne() {
         filled once location is confirmed.
       </p>
 
-      <label>
-        Location: <input name="location" />
+      <label className="text-label">
+        Location: <input name="location" className="text-input" />
       </label>
 
       <div className="subinputs">
-        <label>
-          Project: <br/><input name="title" />
+        <label className="text-label">
+          Project: <br />
+          <input name="title" className="text-input" />
         </label>
-        <label>
-          Contractor: <br/><input name="contractor" />
-        </label>
-      </div>
-
-      <div className="subinputs">
-        <label>
-          Start: <br/><input name="title" />
-        </label>
-        <label>
-          Deadline: <br/><input name="contractor" />
+        <label className="text-label">
+          Contractor: <br />
+          <input name="contractor" className="text-input" />
         </label>
       </div>
 
       <div className="subinputs">
-        <label>
-          Budget Allocated: <br/><input name="budget" />
+        <label className="text-label">
+          Start: <br />
+          <input name="title" className="text-input" />
         </label>
-        <label>
-          Program: <br/><input name="program" />
+        <label className="text-label">
+          Deadline: <br />
+          <input name="contractor" className="text-input" />
+        </label>
+      </div>
+
+      <div className="subinputs">
+        <label className="text-label">
+          Budget Allocated: <br />
+          <input name="budget" className="text-input" />
+        </label>
+        <label className="text-label">
+          Program: <br />
+          <input name="program" className="text-input" />
         </label>
       </div>
 
       <div className="upload-section">
         <button className="upload-box">
-          <svg 
-            width="40" 
-            height="40" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
             strokeLinejoin="round"
             className="upload-icon"
           >
@@ -59,7 +65,6 @@ function ReportOne() {
           <span>Upload Photos of the Site</span>
         </button>
       </div>
-
     </div>
   );
 }

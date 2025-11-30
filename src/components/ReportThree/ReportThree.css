@@ -1,0 +1,25 @@
+.report-three{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    word-wrap: break-word;
+}
+.radio-input{
+    text-align: justify;
+}
+.radio-label{
+    margin-left: -3px;
+}
+.subinputs{
+    display: flex;
+    margin-top: 5px;
+    gap: 5px;
+}
+.issues-input{
+    background-color: lightgray;
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    height: 18px;
+}
