@@ -8,6 +8,14 @@ const editorNavbar = () => {
         <NavLink to="/guest">
           <h2>GhostBusters!</h2>
         </NavLink>
+        <ul>
+          <li>
+            <NavLink to="/guest">Home</NavLink>
+          </li>
+          <li>
+            <NavLink to="/about">About</NavLink>
+          </li>
+        </ul>
       </nav>
     </div>
   );
