@@ -1,14 +1,18 @@
 import "./Projects.css";
 
 function Projects({
-  status = "High Risk", // Changed default to match image
+  status = "High Risk", 
   title = "Metro Flood Control",
   location = "Quezon City",
-  progress = 75, // Added new progress prop
+  progress = 75,
 }) {
   // Helper to determine status color based on the text
   const getStatusClass = (statusText) => {
     switch (statusText.toLowerCase()) {
+      case "on track":
+        return "status-on-track";
+      case "weather affected":
+        return "status-weather-affected";
       case "high risk":
         return "status-high-risk";
       case "completed":

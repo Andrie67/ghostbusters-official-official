@@ -5,14 +5,22 @@ import "./guest.css";
 function Guest() {
   const cardData = {
     project1: {
-      status: "On Track",
-      title: "Project Title 1",
-      location: "Manila",
+      status: "High Risk",
+      title: "Pasig River Flood Control",
+      location: "Pasig City",
+      progress: 50,
     },
     project2: {
-      status: "On Track",
-      title: "Project Title 2",
+      status: "Weather Affected",
+      title: "Six Seven River Control",
       location: "Marikina City",
+      progress: 67,
+    },
+    project3: {
+      status: "On Track",
+      title: "Paldo Dam",
+      location: "Luneta City",
+      progress: 67,
     },
   };
 
@@ -28,7 +36,7 @@ function Guest() {
       <div className="projects">
         <Projects {...cardData.project1} />
         <Projects {...cardData.project2} />
-        <Projects />
+        <Projects {...cardData.project3}/>
       </div>
     </div>
   );

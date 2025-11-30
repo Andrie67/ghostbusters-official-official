@@ -94,3 +94,15 @@ h2 {
   color: #406191;
   cursor: pointer;
 }
+
+.status-on-track {
+  background-color: #d4edda;  /* Light Mint Green */
+  color: #155724;             /* Dark Green */
+  border: 1px solid #c3e6cb;  /* Optional: subtle border for definition */
+}
+
+.status-weather-affected {
+  background-color: #d1ecf1;  /* Light Cyan */
+  color: #0c5460;             /* Dark Teal/Cyan */
+  border: 1px solid #bee5eb;  /* Optional: subtle border */
+}
