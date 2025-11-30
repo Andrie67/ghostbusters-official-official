@@ -2,7 +2,7 @@ import "./Projects.css";
 
 function Projects({
   status = "Under Implementation",
-  title = "Projecy Title",
+  title = "Project Title",
   location = "Location",
 }) {
   return (
