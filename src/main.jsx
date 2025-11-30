@@ -6,10 +6,15 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/home/home.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import Guest from "./pages/guest/guest.jsx";
-import Editor from "./pages/editor.jsx";
+import Editor from "./pages/editor/editor.jsx";
 import About from "./pages/about/about.jsx";
 import FlaggedProjects from "./pages/flagged-projects/flagged-projects.jsx";
 import Report from "./pages/report/report.jsx";
+import UploadProjectProposal from "./pages/upload-project-proposal/upload-project-proposal.jsx";
+import Dashboard from "./pages/dashboard/dashboard.jsx";
+import ReportThankYou from "./pages/report-thank-you/report-thank-you.jsx";
+import GuestReportMock from "./pages/guest-post-report-mock/guest-post-report-mock.jsx";
+import GuestPostReportMock from "./pages/guest-post-report-mock/guest-post-report-mock.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -20,6 +25,11 @@ const router = createBrowserRouter([
   { path: "/about", element: <About /> },
   { path: "/flagged-projects", element: <FlaggedProjects /> },
   { path: "/submit-a-report", element: <Report /> },
+  { path: "/upload-project-proposal", element: <UploadProjectProposal /> },
+  { path: "/dashboard", element: <Dashboard /> },
+  { path: "/report-thank-you", element: <ReportThankYou /> },
+  { path: "/guest-report-mock", element: <GuestReportMock /> },
+  { path: "/guest-post-report-mock", element: <GuestPostReportMock /> },
 ]);
 
 createRoot(document.getElementById("root")).render(

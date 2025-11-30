@@ -13,3 +13,20 @@
     gap: 10px;
     margin-top: 10px;
 }
+
+.btn-submit {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #406191; /* Standard Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: rgb(0, 110, 228); /* Darker blue on hover */
+}

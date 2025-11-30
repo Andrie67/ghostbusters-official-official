@@ -1,3 +1,5 @@
+//Basic Template of a Project Tile
+
 import "./Projects.css";
 
 function Projects({
@@ -6,7 +8,6 @@ function Projects({
   location = "Quezon City",
   progress = 75,
 }) {
-  // Helper to determine status color based on the text
   const getStatusClass = (statusText) => {
     switch (statusText.toLowerCase()) {
       case "on track":
@@ -24,17 +25,14 @@ function Projects({
 
   return (
     <div className="card-project">
-      {/* Dynamic class added here */}
       <div className={`status ${getStatusClass(status)}`}>
         <p>{status}</p>
       </div>
       
       <h2>{title}</h2>
       
-      {/* Added an icon placeholder to match image style */}
       <p className="location-text">📍 {location}</p>
 
-      {/* --- New Progress Bar Section --- */}
       <div className="progress-container">
         <div className="progress-info">
           <span>Progress</span>
@@ -47,7 +45,6 @@ function Projects({
           ></div>
         </div>
       </div>
-      {/* ------------------------------- */}
 
       <button className="details-button">View Details</button>
     </div>
