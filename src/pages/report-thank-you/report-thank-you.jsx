@@ -1,11 +1,11 @@
 import Navbar from "../../components/Navbar/Navbar";
 import "./report-thank-you.css";
 
-function Report() {
+function ReportThankYou() {
   return (
     <div>
       <Navbar />
-      
+
       <div className="report-content">
         {/* SVG Icon matching the image */}
         <div className="icon-container">
@@ -15,14 +15,25 @@ function Report() {
             {/* This circle cuts out the middle to make the checkmark background white */}
             <circle cx="12" cy="12.5" r="5" fill="white" />
             {/* This path draws the checkmark */}
-            <path d="M9 12.5L11 14.5L15 10.5" stroke="black" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" transform="scale(1.2) translate(-2.5, -2)"/>
+            <path
+              d="M9 12.5L11 14.5L15 10.5"
+              stroke="black"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              fill="none"
+              transform="scale(1.2) translate(-2.5, -2)"
+            />
           </svg>
         </div>
 
         <h1 className="report-title">Report Submitted!</h1>
         <p className="report-subtitle">Thank you for being a Ghost Buster!</p>
-        
-        <button className="return-btn" onClick={() => window.location.href = '/'}>
+
+        <button
+          className="return-btn"
+          onClick={() => (window.location.href = "/")}
+        >
           Return Home
         </button>
       </div>
@@ -30,4 +41,4 @@ function Report() {
   );
 }
 
-export default Report;
+export default ReportThankYou;

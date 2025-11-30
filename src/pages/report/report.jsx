@@ -17,7 +17,12 @@ function Report() {
         <div className="reports">
           <ReportThree />
         </div>
-        <button className="btn-submit">Submit Report</button>
+        <button
+          className="btn-submit"
+          onClick={() => (window.location.href = "report-thank-you")}
+        >
+          Submit Report
+        </button>
       </div>
     </div>
   );
