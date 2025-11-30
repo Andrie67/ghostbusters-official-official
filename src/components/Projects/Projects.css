@@ -62,6 +62,12 @@ h2 {
   color: black;
 }
 
+.progress-info span {
+    color: #000000;      /* Forces pure black using Hex code */
+    font-weight: 700;    /* Makes text bold/thicker, appearing darker */
+    opacity: 1;          /* Ensures no transparency */
+}
+
 .progress-bar-track {
   width: 100%;
   height: 12px;
