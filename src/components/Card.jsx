@@ -1,3 +1,4 @@
+import React from "react"; 
 import { useNavigate } from "react-router-dom";
 
 function Card(props) {
@@ -7,6 +8,7 @@ function Card(props) {
   const navigate = () => {
     category === "Guest" ? nav("/guest") : nav("/editor");
   };
+  
   return (
     <div className="card" onClick={navigate}>
       <h2>{props.title}</h2>

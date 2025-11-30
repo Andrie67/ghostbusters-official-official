@@ -1,11 +1,13 @@
 import React from "react";
 import "./Navbar.css";
+import GhostLogo from '../../assets/ghostiee.png';
 import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav>
-      <NavLink to="/">
+      <NavLink to="/" className="navbar-brand">
+        <img src={GhostLogo} alt="GhostBusters Logo" className="brand-logo"/>
         <h2>GhostBusters!</h2>
       </NavLink>
 
@@ -23,8 +25,8 @@ const Navbar = () => {
           <NavLink to="/">History</NavLink>
         </li>
         <li>
-          <NavLink to="/submit-a-report">
-            <button className="report-button">Submit a Report</button>
+          <NavLink to="/submit-a-report" className="report-link">
+          Submit a Report
           </NavLink>
         </li>
       </ul>
