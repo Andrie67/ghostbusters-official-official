@@ -7,25 +7,38 @@ function ReportOne() {
         Project Title, Contractor, Deadline, Budget, etc. are automatically
         filled once location is confirmed.
       </p>
+
       <label>
         Location: <input name="location" />
       </label>
+
       <div className="subinputs">
         <label>
-          Project: <input name="title" />
+          Project: <br/><input name="title" />
         </label>
         <label>
-          Contractor: <input name="contractor" />
+          Contractor: <br/><input name="contractor" />
         </label>
       </div>
+
       <div className="subinputs">
         <label>
-          Start: <input name="title" />
+          Start: <br/><input name="title" />
         </label>
         <label>
-          Deadline: <input name="contractor" />
+          Deadline: <br/><input name="contractor" />
         </label>
       </div>
+
+      <div className="subinputs">
+        <label>
+          Budget Allocated: <br/><input name="budget" />
+        </label>
+        <label>
+          Program: <br/><input name="program" />
+        </label>
+      </div>
+
     </div>
   );
 }
