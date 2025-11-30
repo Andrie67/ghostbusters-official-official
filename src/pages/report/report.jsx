@@ -17,6 +17,7 @@ function Report() {
         <div className="reports">
           <ReportThree />
         </div>
+        <button className="btn-submit">Submit Report</button>
       </div>
     </div>
   );
