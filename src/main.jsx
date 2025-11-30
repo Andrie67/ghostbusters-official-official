@@ -13,6 +13,8 @@ import Report from "./pages/report/report.jsx";
 import UploadProjectProposal from "./pages/upload-project-proposal/upload-project-proposal.jsx";
 import Dashboard from "./pages/dashboard/dashboard.jsx";
 import ReportThankYou from "./pages/report-thank-you/report-thank-you.jsx";
+import GuestReportMock from "./pages/guest-post-report-mock/guest-post-report-mock.jsx";
+import GuestPostReportMock from "./pages/guest-post-report-mock/guest-post-report-mock.jsx";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -26,6 +28,8 @@ const router = createBrowserRouter([
   { path: "/upload-project-proposal", element: <UploadProjectProposal /> },
   { path: "/dashboard", element: <Dashboard /> },
   { path: "/report-thank-you", element: <ReportThankYou /> },
+  { path: "/guest-report-mock", element: <GuestReportMock /> },
+  { path: "/guest-post-report-mock", element: <GuestPostReportMock /> },
 ]);
 
 createRoot(document.getElementById("root")).render(

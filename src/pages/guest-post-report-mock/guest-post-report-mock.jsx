@@ -1,8 +1,8 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Projects from "../../components/Projects/Projects";
-import "./guest.css";
+import "./guest-post-report-mock.css";
 
-function Guest() {
+function GuestPostReportMock() {
   const cardData = {
     project1: {
       status: "High Risk",
@@ -34,7 +34,7 @@ function Guest() {
         </div>
       </div>
       <div className="projects">
-        <Projects {...cardData.project3}/>
+        <Projects {...cardData.project3} />
         <Projects {...cardData.project1} />
         <Projects {...cardData.project2} />
       </div>
@@ -42,4 +42,4 @@ function Guest() {
   );
 }
 
-export default Guest;
+export default GuestPostReportMock;

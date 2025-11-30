@@ -32,7 +32,7 @@ function ReportThankYou() {
 
         <button
           className="return-btn"
-          onClick={() => (window.location.href = "/")}
+          onClick={() => (window.location.href = "/guest-post-report-mock")}
         >
           Return Home
         </button>
