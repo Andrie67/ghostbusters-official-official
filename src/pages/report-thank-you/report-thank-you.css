@@ -15,6 +15,10 @@
   align-items: center;
   padding-top: 80px; /* Adjust spacing from navbar */
   text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 /* The Seal Icon */
