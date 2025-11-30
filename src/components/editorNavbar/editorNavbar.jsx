@@ -1,23 +1,25 @@
 import "./editorNavbar.css";
 import { Link, NavLink } from "react-router-dom";
+import GhostLogo from "../../assets/ghostiee.png";
 
 const editorNavbar = () => {
   return (
-    <div>
-      <nav>
-        <NavLink to="/guest">
-          <h2>GhostBusters!</h2>
-        </NavLink>
-        <ul>
-          <li>
-            <NavLink to="/guest">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav>
+      <NavLink to="/" className="navbar-brand">
+        <img src={GhostLogo} alt="GhostBusters Logo" className="brand-logo" />
+        <h2>GhostBusters!</h2>
+      </NavLink>
+      <ul>
+        <li>
+          <NavLink to="/dashboard">Dashboard</NavLink>
+        </li>
+        <li>
+          <NavLink to="/upload-project-proposal">
+            Upload Project Proposal
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 };
 
