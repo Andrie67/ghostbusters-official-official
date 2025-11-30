@@ -7,7 +7,7 @@ function ReportThree() {
       <div className="subinputs">
         <label className="radio-label">
           <input
-            type="radio"
+            type="checkbox"
             name="quality"
             value="option1"
             className="radio-input"
@@ -18,7 +18,7 @@ function ReportThree() {
       <div className="subinputs">
         <label className="radio-label">
           <input
-            type="radio"
+            type="checkbox"
             name="quality"
             value="option2"
             className="radio-input"
@@ -29,7 +29,7 @@ function ReportThree() {
       <div className="subinputs">
         <label className="radio-label">
           <input
-            type="radio"
+            type="checkbox"
             name="quality"
             value="option3"
             className="radio-input"
@@ -40,7 +40,7 @@ function ReportThree() {
       <div className="subinputs">
         <label className="radio-label">
           <input
-            type="radio"
+            type="checkbox"
             name="quality"
             value="option4"
             className="radio-input"
