@@ -109,9 +109,9 @@ span {
 
 /* Styles for the new icon inside the card */
 .card-icon {
-    width: 80px; /* Adjust size as needed */
+    width: 300px; /* Adjust size as needed */
     height: auto;
-    margin-bottom: 20px; /* Space between icon and title */
+    margin-bottom: -20px; /* Space between icon and title */
     /* Ensure the images are rendered pure white if they aren't already */
     filter: brightness(0) invert(1);
 }
