@@ -11,6 +11,13 @@ function Card(props) {
   
   return (
     <div className="card" onClick={navigate}>
+      {props.icon && (
+        <img 
+          src={props.icon} 
+          alt={props.title} 
+          className="card-icon" 
+        />
+      )}
       <h2>{props.title}</h2>
       <p>{props.description}</p>
     </div>
